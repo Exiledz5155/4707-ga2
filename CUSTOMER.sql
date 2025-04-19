@@ -5,5 +5,5 @@ CREATE TABLE CUSTOMER (
     EmailAddresses VARCHAR(100),
     PhoneNumber VARCHAR(10),
     BillingAddress VARCHAR(300),
-)
+);
 
