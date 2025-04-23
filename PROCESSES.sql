@@ -1,0 +1,7 @@
+CREATE TABLE PROCESSES (
+    OOrderID INT,
+    EEmployeeID INT,
+    PRIMARY KEY (OOrderID, EEmployeeID),
+    FOREIGN KEY (OOrderID) REFERENCES ORDERS(OrderID),
+    FOREIGN KEY (EEmployeeID) REFERENCES EMPLOYEE(EmployeeID)
+);
