@@ -2,3 +2,6 @@
 4707 Group Assignment 2 <br>
 Team 27 <br>
 Danny Bui, Annalise Xiao, Shreya Srivasyava, Vy Bui Nguyen <br>
+
+Notes: <br>
+Run AUTHOR.sql before BOOK.sql <br>
