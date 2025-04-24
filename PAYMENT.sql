@@ -3,4 +3,5 @@ CREATE TABLE PAYMENT (
     PaymentDate DATE,
     PaymentAmount DECIMAL(10, 2),
     OOrderID INT,
-    FOREIGN KEY (OOrderID) REFERENCES ORDERS(OrderID));
+    FOREIGN KEY (OOrderID) REFERENCES ORDERS(OrderID)
+);
