@@ -4,7 +4,8 @@ CREATE TABLE ORDERS (
     ShippingDate DATE,
     CustomerID INT,
     PaymentStatus VARCHAR(50),
-    CCustomerID INT,
+    CCustomerID INT, -- is this line needed if we already have line 9?
     PPaymentID INT,
     FOREIGN KEY (CCustomerID) REFERENCES CUSTOMER(CustomerID),
-    FOREIGN KEY (PPaymentID) REFERENCES PAYMENT(PaymentID));
+    FOREIGN KEY (PPaymentID) REFERENCES PAYMENT(PaymentID)
+);
