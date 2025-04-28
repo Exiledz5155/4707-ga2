@@ -1,7 +1,8 @@
 CREATE TABLE INVENTORY (
-    InventoryID INT PRIMARY KEY,
+    InventoryID INT,
+    BookID INT,
     InventoryQuantity INT NOT NULL,
     RestockThreshold INT NOT NULL,
-    BookID INT,
+    PRIMARY KEY (InventoryID, BookID),
     FOREIGN KEY (BookID) REFERENCES BOOK(BookID)
 );
