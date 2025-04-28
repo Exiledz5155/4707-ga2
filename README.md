@@ -3,7 +3,7 @@
 Team 27 <br>
 Danny Bui, Annalise Xiao, Shreya Srivasyava, Vy Bui Nguyen <br>
 
-Here is the recommended script order as some tables must exist before another. <br>
+Here is the recommended script order as some tables must exist before others. <br>
 1. CUSTOMER.sql <br>
 2. AUTHOR.sql <br>
 3. EMPLOYEE.sql <br>
