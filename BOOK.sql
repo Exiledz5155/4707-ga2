@@ -6,7 +6,5 @@ CREATE TABLE BOOK (
     PublicationYear YEAR, 
     ContactInfo VARCHAR(100),
     Name VARCHAR(200),
-    StockQuantity INT,
-    AAuthorID INT,
-    FOREIGN KEY (AAuthorID) REFERENCES AUTHOR(AuthorID)
+    StockQuantity INT
 );
