@@ -16,3 +16,4 @@ Here is the recommended script order as some tables must exist before others. <b
 10. MANAGES.sql (depends on INVENTORY and EMPLOYEE) <br>
 11. PROCESSES.sql (depends on ORDERS and EMPLOYEE) <br>
 12. ASSISTS.sql (depends on CUSTOMER and EMPLOYEE) <br>
+13. WRITES.sql (depends on AUTHOR and BOOK) <br>
