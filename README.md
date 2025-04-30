@@ -11,7 +11,7 @@ Here is the recommended script order as some tables must exist before others. <b
 5. INVENTORY.sql (depends on BOOK) <br>
 6. ORDERS.sql (depends on CUSTOMER) <br>
 7. PAYMENT.sql (depends on ORDERS) <br>
-8. CONTAIN.sql (depends on ORDERS and BOOK) <br>
+8. CONTAINS.sql (depends on ORDERS and BOOK) <br>
 9. CUSTOMER_EMAIL.sql (depends on CUSTOMER) <br>
 10. MANAGES.sql (depends on INVENTORY and EMPLOYEE) <br>
 11. PROCESSES.sql (depends on ORDERS and EMPLOYEE) <br>
