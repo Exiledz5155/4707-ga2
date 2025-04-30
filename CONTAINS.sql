@@ -1,4 +1,4 @@
-CREATE TABLE CONTAIN (
+CREATE TABLE CONTAINS (
     Quantity INT,
     Price INT,
     OrderID INT,
