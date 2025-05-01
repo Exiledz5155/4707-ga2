@@ -5,6 +5,6 @@ CREATE TABLE BOOK (
     Price DECIMAL (10, 2),
     PublicationYear YEAR, 
     ContactInfo VARCHAR(100),
-    Name VARCHAR(200),
+    PublisherName VARCHAR(200),
     StockQuantity INT
 );

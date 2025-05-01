@@ -1,9 +1,9 @@
 CREATE TABLE CONTAINS (
     Quantity INT,
     Price INT,
-    OrderID INT,
-    BookID INT,
-    PRIMARY KEY (OrderID, BookID),
-    FOREIGN KEY (OrderID) REFERENCES ORDERS(OrderID),
-    FOREIGN KEY (BookID) REFERENCES BOOK(BookID)
+    OOrderID INT,
+    BBookID INT,
+    PRIMARY KEY (OOrderID, BBookID),
+    FOREIGN KEY (OOrderID) REFERENCES ORDERS(OrderID),
+    FOREIGN KEY (BBookID) REFERENCES BOOK(BookID)
 );

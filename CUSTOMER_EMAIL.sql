@@ -1,6 +1,7 @@
 CREATE TABLE CUSTOMER_EMAIL (
-    EmailAddress VARCHAR(255),
+    CEmailAddress VARCHAR(100),
     CCustomerID INT,
-    PRIMARY KEY (EmailAddress, CCustomerID),
+    PRIMARY KEY (CEmailAddress, CCustomerID),
     FOREIGN KEY (CCustomerID) REFERENCES CUSTOMER(CustomerID)
+    FOREIGN KEY (CEmailAddress) REFERENCES CUSTOMER(EmailAddress)
 );

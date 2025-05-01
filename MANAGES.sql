@@ -1,7 +1,7 @@
 CREATE TABLE MANAGES (
-    InventoryID INT,
-    EmployeeID INT,
-    PRIMARY KEY (InventoryID, EmployeeID),
-    FOREIGN KEY (InventoryID) REFERENCES INVENTORY(InventoryID),
-    FOREIGN KEY (EmployeeID) REFERENCES EMPLOYEE(EmployeeID)
+    IInventoryID INT,
+    EEmployeeID INT,
+    PRIMARY KEY (IInventoryID, EEmployeeID),
+    FOREIGN KEY (IInventoryID) REFERENCES INVENTORY(InventoryID),
+    FOREIGN KEY (EEmployeeID) REFERENCES EMPLOYEE(EmployeeID)
 );

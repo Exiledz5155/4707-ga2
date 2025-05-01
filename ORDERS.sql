@@ -2,7 +2,6 @@ CREATE TABLE ORDERS (
     OrderID INT PRIMARY KEY,
     OrderDate DATE,
     ShippingDate DATE,
-    CustomerID INT,
     PaymentStatus VARCHAR(50),
     CCustomerID INT, 
     PPaymentID INT,
