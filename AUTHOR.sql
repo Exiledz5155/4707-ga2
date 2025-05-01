@@ -1,5 +1,8 @@
 CREATE TABLE AUTHOR (
     AuthorID INT PRIMARY KEY,
     FirstName VARCHAR(100),
-    LastName VARCHAR(100)
+    LastName VARCHAR(100),
+    Biography VARCHAR(100),
+    BBookID INT(50),
+    FOREIGN KEY (BBookID) REFERENCES BOOK(BookID)
 );
