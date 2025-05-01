@@ -4,4 +4,6 @@ CREATE TABLE EMPLOYEE (
     LastName VARCHAR(100),
     HireDate DATE,
     Position VARCHAR(100)
+    Age INT,
+    CHECK (Age>=18)
 );
