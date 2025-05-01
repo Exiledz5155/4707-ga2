@@ -1,10 +1,12 @@
 CREATE TABLE ORDERS (
     OrderID INT PRIMARY KEY,
-    OrderDate DATE,
-    ShippingDate DATE,
-    PaymentStatus VARCHAR(50),
-    CCustomerID INT, 
-    PPaymentID INT,
+    OrderDate DATE NOT NULL,
+    ShippingDate DATE NOT NULL,
+    PaymentStatus VARCHAR(50) NOT NULL,
+    CCustomerID INT NOT NULL, 
+    PPaymentID INT NOT NULL,
     FOREIGN KEY (CCustomerID) REFERENCES CUSTOMER(CustomerID),
+        ON DELETE CASCADE ON UPDATE CASCADE,
     FOREIGN KEY (PPaymentID) REFERENCES PAYMENT(PaymentID)
+        ON DELETE CASCADE ON UPDATE CASCADE
 );

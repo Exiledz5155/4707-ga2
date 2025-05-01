@@ -1,9 +1,8 @@
 CREATE TABLE EMPLOYEE (
     EmployeeID INT PRIMARY KEY,
-    FirstName VARCHAR(100),
-    LastName VARCHAR(100),
-    HireDate DATE,
-    Position VARCHAR(100)
-    Age INT,
-    CHECK (Age>=18)
+    FirstName VARCHAR(100) NOT NULL,
+    LastName VARCHAR(100) NOT NULL,
+    HireDate DATE NOT NULL,
+    Position VARCHAR(100) NOT NULL,
+    Age INT NOT NULL CHECK (Age>=18)
 );
