@@ -1,5 +1,5 @@
 CREATE TABLE INVENTORY (
-    InventoryID INT,
+    InventoryID INT PRIMARY KEY,
     BBookID INT,
     InventoryQuantity INT NOT NULL,
     RestockThreshold INT NOT NULL,

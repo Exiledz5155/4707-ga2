@@ -1,6 +1,6 @@
 CREATE TABLE CONTAINS (
     Quantity INT,
-    Price INT,
+    Price DECIMAL(10, 2),
     OOrderID INT,
     BBookID INT,
     PRIMARY KEY (OOrderID, BBookID),
