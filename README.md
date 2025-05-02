@@ -9,6 +9,8 @@ NOTES:
 - We assumed that a customer has only one email address. 
 - We added CHECK constraint on the "Age" column for the EMPLOYEE table. This constraint ensures that the age of an employee must be 18 or order.
 - We added CHECK constraint on the "PhoneNumber" column for the CUSTOMER table. This constraint ensures that the a customer's phone number must be 10 digits.
+-We used the CASCADE option for ON DELETE and ON UPDATE in most foreign key relationships to ensure automatic updates/removals where necessary.
+-We followed naming conventions for foreign keys (e.g., CCustomerID, BBookID) to clearly indicate referenced tables and avoid ambiguity.
 
 Here is the recommended script order as some tables must exist before others. <br>
 1. CUSTOMER.sql <br>
