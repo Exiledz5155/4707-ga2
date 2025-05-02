@@ -9,8 +9,8 @@
 Please refer to our relational mapping in ra.png or below for reference, which includes corrections from our original group assignment 1 submission.
 ![Relational Mapping](./ra.png)
 
-NOTES:
 
+NOTES:
 - For attributes that appear in multiple tables such as "FirstName" and "LastName", we kept the character limit consistent (100). For other attributes, we placed a character limit that we found to be intituive.
 - We assumed that a customer has only one email address.
 - We added CHECK constraint on the "Age" column for the `EMPLOYEE` table. This constraint ensures that the age of an employee must be 18 or order.
