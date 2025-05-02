@@ -9,11 +9,9 @@ NOTES:
 - We assumed that a customer has only one email address. <br>
 - We added CHECK constraint on the "PhoneNumber" column for the CUSTOMER table. This constraint ensures that the a customer's unique phone number must be 10 digits. <br>
 - We added CHECK constraint on the "Age" column for the EMPLOYEE table. This constraint ensures that the age of an employee must be 18 or order. <br>
-We assumed that a customer has only one email address.
-We added CHECK constraint on the "Age" column for the EMPLOYEE table. This constraint ensures that the age of an employee must be 18 or order.
-We added CHECK constraint on the "PhoneNumber" column for the CUSTOMER table. This constraint ensures that the a customer's phone number must be 10 digits.
-We used the CASCADE option for ON DELETE and ON UPDATE in most foreign key relationships to ensure automatic updates/removals where necessary.
-We followed naming conventions for foreign keys (e.g., CCustomerID, BBookID) to clearly indicate referenced tables and avoid ambiguity.
+- We added CHECK constraint on the "Price" column for the BOOK table. This constraint ensures that the a book's price must be greater than or equal to zero. Zero is a possibility for a book's price if the bookstore is receiving a new book that has not been released yet and is not sure of its market retail value. <br>
+- We added CHECK constraint on the "StockQuantity" column for the BOOK table. This constraint ensures that the a book's stock quantity must be greater than or equal to zero. Zero is a possibility for a book's stock quantity if the bookstore is receiving a new book that has not been released yet or if the bookstore is out of stock for a specific book. <br>
+
 
 
 Here is the recommended script order as some tables must exist before others. <br>
