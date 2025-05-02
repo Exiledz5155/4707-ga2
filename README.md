@@ -3,7 +3,7 @@
 Team 27 <br>
 Danny Bui, Annalise Xiao, Shreya Srivasyava, Vy Bui Nguyen <br>
 
-Please refer to our relational mapping in ra.png for reference. 
+Please refer to our relational mapping in ra.png for reference, which includes corrections from our original group assignment 1 submission.
 
 NOTES:
 - We assumed that a customer has only one email address. 
