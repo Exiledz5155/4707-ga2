@@ -4,9 +4,9 @@
 
 ### Team 27 <br>
 
-### Danny Bui, Annalise Xiao, Shreya Srivasyava, Vy Bui Nguyen <br>
+### Danny Bui, Annalise Xiao, Shreya Srivastava, Vy Bui Nguyen <br>
 
-Please refer to our relational mapping in ra.png or below for reference.
+Please refer to our relational mapping in ra.png or below for reference, which includes corrections from our original group assignment 1 submission.
 ![Relational Mapping](./ra.png)
 
 NOTES:
