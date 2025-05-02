@@ -13,6 +13,9 @@ NOTES:
 - We added CHECK constraint on the "StockQuantity" column for the BOOK table. This constraint ensures that the a book's stock quantity must be greater than or equal to zero. Zero is a possibility for a book's stock quantity if the bookstore is receiving a new book that has not been released yet or if the bookstore is out of stock for a specific book. <br>
 - We used the CASCADE option for ON DELETE and ON UPDATE in most foreign key relationships to ensure automatic updates/removals where necessary.
 - We followed naming conventions for foreign keys (e.g., CCustomerID, BBookID) to clearly indicate referenced tables and avoid ambiguity.
+- RestockThreshold to ensure that these values are never negative, maintaining accurate and realistic stock data. It also establishes a foreign key relationship with the BOOK table to track which books are held in inventory.
+- The CONTAINS table uses CHECK constraints to ensure that the Quantity of books in an order is greater than 0 and the Price is non-negative.
+- The MANAGES table creates a many-to-many relationship between INVENTORY and EMPLOYEE
 
 
 Here is the recommended script order as some tables must exist before others. <br>
